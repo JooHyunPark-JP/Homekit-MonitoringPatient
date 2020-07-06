@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE25A82620C0625D0030A89C /* AccessoryEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE25A82520C0625D0030A89C /* AccessoryEditViewController.swift */; };
+		AE95732920C03D8D008B4370 /* SliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE95732820C03D8D008B4370 /* SliderCell.swift */; };
+		AE95732B20C03D90008B4370 /* ServiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE95732A20C03D90008B4370 /* ServiceCell.swift */; };
+		AE95732D20C03D93008B4370 /* SegmentedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE95732C20C03D93008B4370 /* SegmentedCell.swift */; };
+		AE95733220C03DDD008B4370 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE95733120C03DDD008B4370 /* Toast.swift */; };
+		AE95733420C03DDF008B4370 /* HMCharacteristicExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE95733320C03DDF008B4370 /* HMCharacteristicExtension.swift */; };
+		AE95733620C03DE3008B4370 /* AccessoryDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE95733520C03DE3008B4370 /* AccessoryDatabase.swift */; };
+		AE9EDCCD20C042B50020E35E /* CharacteristicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9EDCCC20C042B50020E35E /* CharacteristicCell.swift */; };
+		AEB5EF9A20BDE59700026DB4 /* AccessoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB5EF9920BDE59700026DB4 /* AccessoryViewController.swift */; };
+		AEF9634D20BDB402007EC300 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF9634020BDB3FA007EC300 /* SQLite.framework */; };
+		AEF9634E20BDB408007EC300 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF9634020BDB3FA007EC300 /* SQLite.framework */; };
+		AEF9634F20BDB408007EC300 /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AEF9634020BDB3FA007EC300 /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AEF9635520BDB7C0007EC300 /* HomeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF9635420BDB7C0007EC300 /* HomeStore.swift */; };
+		AEF9635720BDC188007EC300 /* RoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF9635620BDC188007EC300 /* RoomViewController.swift */; };
+		AEFACC6A211C94C200BEE960 /* WebOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFACC69211C94C200BEE960 /* WebOverViewController.swift */; };
+		AEFC790F20BEEBFF008E0295 /* AccessoryBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFC790E20BEEBFF008E0295 /* AccessoryBrowserViewController.swift */; };
+		AEFDF9FF20BC8EB50087F14E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFDF9FE20BC8EB50087F14E /* AppDelegate.swift */; };
+		AEFDFA0120BC8EB50087F14E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFDFA0020BC8EB50087F14E /* ViewController.swift */; };
+		AEFDFA0420BC8EB50087F14E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEFDFA0220BC8EB50087F14E /* Main.storyboard */; };
+		AEFDFA0620BC8EB70087F14E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEFDFA0520BC8EB70087F14E /* Assets.xcassets */; };
+		AEFDFA0920BC8EB70087F14E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEFDFA0720BC8EB70087F14E /* LaunchScreen.storyboard */; };
+		AEFDFA2A20BC8FB10087F14E /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEFDFA2920BC8FB10087F14E /* HomeKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEF9633F20BDB3FA007EC300 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEF9633520BDB3FA007EC300 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247AD31C3F04ED00AE3E12;
+			remoteInfo = "SQLite iOS";
+		};
+		AEF9634120BDB3FA007EC300 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEF9633520BDB3FA007EC300 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247ADD1C3F04ED00AE3E12;
+			remoteInfo = "SQLiteTests iOS";
+		};
+		AEF9634320BDB3FA007EC300 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEF9633520BDB3FA007EC300 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B3C1C3F3ED000AE3E12;
+			remoteInfo = "SQLite Mac";
+		};
+		AEF9634520BDB3FA007EC300 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEF9633520BDB3FA007EC300 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B451C3F3ED000AE3E12;
+			remoteInfo = "SQLiteTests Mac";
+		};
+		AEF9634720BDB3FA007EC300 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEF9633520BDB3FA007EC300 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E5A1C6BB0F50062603F;
+			remoteInfo = "SQLite tvOS";
+		};
+		AEF9634920BDB3FA007EC300 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEF9633520BDB3FA007EC300 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E631C6BB0F60062603F;
+			remoteInfo = "SQLiteTests tvOS";
+		};
+		AEF9634B20BDB3FA007EC300 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEF9633520BDB3FA007EC300 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A121AC451CA35C79005A31D1;
+			remoteInfo = "SQLite watchOS";
+		};
+		AEF9635020BDB408007EC300 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEF9633520BDB3FA007EC300 /* SQLite.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EE247AD21C3F04ED00AE3E12;
+			remoteInfo = "SQLite iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AEF9635220BDB408007EC300 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AEF9634F20BDB408007EC300 /* SQLite.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AE25A82520C0625D0030A89C /* AccessoryEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessoryEditViewController.swift; sourceTree = "<group>"; };
+		AE95732820C03D8D008B4370 /* SliderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCell.swift; sourceTree = "<group>"; };
+		AE95732A20C03D90008B4370 /* ServiceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCell.swift; sourceTree = "<group>"; };
+		AE95732C20C03D93008B4370 /* SegmentedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedCell.swift; sourceTree = "<group>"; };
+		AE95733120C03DDD008B4370 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		AE95733320C03DDF008B4370 /* HMCharacteristicExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMCharacteristicExtension.swift; sourceTree = "<group>"; };
+		AE95733520C03DE3008B4370 /* AccessoryDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessoryDatabase.swift; sourceTree = "<group>"; };
+		AE9EDCCC20C042B50020E35E /* CharacteristicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacteristicCell.swift; sourceTree = "<group>"; };
+		AEB5EF9920BDE59700026DB4 /* AccessoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessoryViewController.swift; sourceTree = "<group>"; };
+		AEF9633520BDB3FA007EC300 /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = "../../Desktop/SQLite.swift-master/SQLite.xcodeproj"; sourceTree = "<group>"; };
+		AEF9635420BDB7C0007EC300 /* HomeStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStore.swift; sourceTree = "<group>"; };
+		AEF9635620BDC188007EC300 /* RoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomViewController.swift; sourceTree = "<group>"; };
+		AEFACC69211C94C200BEE960 /* WebOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebOverViewController.swift; sourceTree = "<group>"; };
+		AEFC790E20BEEBFF008E0295 /* AccessoryBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessoryBrowserViewController.swift; sourceTree = "<group>"; };
+		AEFDF9FB20BC8EB50087F14E /* HomeKit Sensor Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HomeKit Sensor Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEFDF9FE20BC8EB50087F14E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AEFDFA0020BC8EB50087F14E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AEFDFA0320BC8EB50087F14E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEFDFA0520BC8EB70087F14E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEFDFA0820BC8EB70087F14E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEFDFA0A20BC8EB70087F14E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEFDFA2920BC8FB10087F14E /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
+		AEFDFA2B20BC8FB10087F14E /* HomeKit Sensor Test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "HomeKit Sensor Test.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEFDF9F820BC8EB50087F14E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF9634D20BDB402007EC300 /* SQLite.framework in Frameworks */,
+				AEFDFA2A20BC8FB10087F14E /* HomeKit.framework in Frameworks */,
+				AEF9634E20BDB408007EC300 /* SQLite.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE95733020C03DAD008B4370 /* Characteristic Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AE95732C20C03D93008B4370 /* SegmentedCell.swift */,
+				AE95732820C03D8D008B4370 /* SliderCell.swift */,
+				AE95732A20C03D90008B4370 /* ServiceCell.swift */,
+				AE9EDCCC20C042B50020E35E /* CharacteristicCell.swift */,
+			);
+			path = "Characteristic Cells";
+			sourceTree = "<group>";
+		};
+		AE95733720C03DED008B4370 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE95733520C03DE3008B4370 /* AccessoryDatabase.swift */,
+				AE95733320C03DDF008B4370 /* HMCharacteristicExtension.swift */,
+				AE95733120C03DDD008B4370 /* Toast.swift */,
+				AEF9635420BDB7C0007EC300 /* HomeStore.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AEF9633620BDB3FA007EC300 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEF9634020BDB3FA007EC300 /* SQLite.framework */,
+				AEF9634220BDB3FA007EC300 /* SQLiteTests iOS.xctest */,
+				AEF9634420BDB3FA007EC300 /* SQLite.framework */,
+				AEF9634620BDB3FA007EC300 /* SQLiteTests Mac.xctest */,
+				AEF9634820BDB3FA007EC300 /* SQLite.framework */,
+				AEF9634A20BDB3FA007EC300 /* SQLiteTests tvOS.xctest */,
+				AEF9634C20BDB3FA007EC300 /* SQLite.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEFDF9F220BC8EB50087F14E = {
+			isa = PBXGroup;
+			children = (
+				AEFDF9FD20BC8EB50087F14E /* HomeKit Sensor Test */,
+				AEFDF9FC20BC8EB50087F14E /* Products */,
+				AEFDFA2820BC8FB10087F14E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AEFDF9FC20BC8EB50087F14E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEFDF9FB20BC8EB50087F14E /* HomeKit Sensor Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEFDF9FD20BC8EB50087F14E /* HomeKit Sensor Test */ = {
+			isa = PBXGroup;
+			children = (
+				AE95733720C03DED008B4370 /* Supporting Files */,
+				AE95733020C03DAD008B4370 /* Characteristic Cells */,
+				AEFDFA2B20BC8FB10087F14E /* HomeKit Sensor Test.entitlements */,
+				AEFDFA0220BC8EB50087F14E /* Main.storyboard */,
+				AEFACC69211C94C200BEE960 /* WebOverViewController.swift */,
+				AEFDF9FE20BC8EB50087F14E /* AppDelegate.swift */,
+				AEFDFA0020BC8EB50087F14E /* ViewController.swift */,
+				AEF9635620BDC188007EC300 /* RoomViewController.swift */,
+				AEB5EF9920BDE59700026DB4 /* AccessoryViewController.swift */,
+				AEFC790E20BEEBFF008E0295 /* AccessoryBrowserViewController.swift */,
+				AE25A82520C0625D0030A89C /* AccessoryEditViewController.swift */,
+				AEFDFA0520BC8EB70087F14E /* Assets.xcassets */,
+				AEFDFA0720BC8EB70087F14E /* LaunchScreen.storyboard */,
+				AEFDFA0A20BC8EB70087F14E /* Info.plist */,
+			);
+			path = "HomeKit Sensor Test";
+			sourceTree = "<group>";
+		};
+		AEFDFA2820BC8FB10087F14E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEF9633520BDB3FA007EC300 /* SQLite.xcodeproj */,
+				AEFDFA2920BC8FB10087F14E /* HomeKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEFDF9FA20BC8EB50087F14E /* HomeKit Sensor Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEFDFA0D20BC8EB70087F14E /* Build configuration list for PBXNativeTarget "HomeKit Sensor Test" */;
+			buildPhases = (
+				AEFDF9F720BC8EB50087F14E /* Sources */,
+				AEFDF9F820BC8EB50087F14E /* Frameworks */,
+				AEFDF9F920BC8EB50087F14E /* Resources */,
+				AEF9635220BDB408007EC300 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEF9635120BDB408007EC300 /* PBXTargetDependency */,
+			);
+			name = "HomeKit Sensor Test";
+			productName = "HomeKit Sensor Test";
+			productReference = AEFDF9FB20BC8EB50087F14E /* HomeKit Sensor Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEFDF9F320BC8EB50087F14E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Xcode User";
+				TargetAttributes = {
+					AEFDF9FA20BC8EB50087F14E = {
+						CreatedOnToolsVersion = 9.3.1;
+						SystemCapabilities = {
+							com.apple.HomeKit = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = AEFDF9F620BC8EB50087F14E /* Build configuration list for PBXProject "HomeKit Sensor Test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEFDF9F220BC8EB50087F14E;
+			productRefGroup = AEFDF9FC20BC8EB50087F14E /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AEF9633620BDB3FA007EC300 /* Products */;
+					ProjectRef = AEF9633520BDB3FA007EC300 /* SQLite.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				AEFDF9FA20BC8EB50087F14E /* HomeKit Sensor Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		AEF9634020BDB3FA007EC300 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = AEF9633F20BDB3FA007EC300 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AEF9634220BDB3FA007EC300 /* SQLiteTests iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests iOS.xctest";
+			remoteRef = AEF9634120BDB3FA007EC300 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AEF9634420BDB3FA007EC300 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = AEF9634320BDB3FA007EC300 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AEF9634620BDB3FA007EC300 /* SQLiteTests Mac.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests Mac.xctest";
+			remoteRef = AEF9634520BDB3FA007EC300 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AEF9634820BDB3FA007EC300 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = AEF9634720BDB3FA007EC300 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AEF9634A20BDB3FA007EC300 /* SQLiteTests tvOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests tvOS.xctest";
+			remoteRef = AEF9634920BDB3FA007EC300 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AEF9634C20BDB3FA007EC300 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = AEF9634B20BDB3FA007EC300 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEFDF9F920BC8EB50087F14E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEFDFA0920BC8EB70087F14E /* LaunchScreen.storyboard in Resources */,
+				AEFDFA0620BC8EB70087F14E /* Assets.xcassets in Resources */,
+				AEFDFA0420BC8EB50087F14E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEFDF9F720BC8EB50087F14E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEFDFA0120BC8EB50087F14E /* ViewController.swift in Sources */,
+				AE95732920C03D8D008B4370 /* SliderCell.swift in Sources */,
+				AEFACC6A211C94C200BEE960 /* WebOverViewController.swift in Sources */,
+				AEF9635520BDB7C0007EC300 /* HomeStore.swift in Sources */,
+				AEFDF9FF20BC8EB50087F14E /* AppDelegate.swift in Sources */,
+				AEF9635720BDC188007EC300 /* RoomViewController.swift in Sources */,
+				AE9EDCCD20C042B50020E35E /* CharacteristicCell.swift in Sources */,
+				AE95732B20C03D90008B4370 /* ServiceCell.swift in Sources */,
+				AE25A82620C0625D0030A89C /* AccessoryEditViewController.swift in Sources */,
+				AEFC790F20BEEBFF008E0295 /* AccessoryBrowserViewController.swift in Sources */,
+				AE95733220C03DDD008B4370 /* Toast.swift in Sources */,
+				AE95733620C03DE3008B4370 /* AccessoryDatabase.swift in Sources */,
+				AE95733420C03DDF008B4370 /* HMCharacteristicExtension.swift in Sources */,
+				AEB5EF9A20BDE59700026DB4 /* AccessoryViewController.swift in Sources */,
+				AE95732D20C03D93008B4370 /* SegmentedCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEF9635120BDB408007EC300 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SQLite iOS";
+			targetProxy = AEF9635020BDB408007EC300 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AEFDFA0220BC8EB50087F14E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEFDFA0320BC8EB50087F14E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEFDFA0720BC8EB70087F14E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEFDFA0820BC8EB70087F14E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEFDFA0B20BC8EB70087F14E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AEFDFA0C20BC8EB70087F14E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEFDFA0E20BC8EB70087F14E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "HomeKit Sensor Test/HomeKit Sensor Test.entitlements";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = RMHN57NYZQ;
+				INFOPLIST_FILE = "HomeKit Sensor Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.on.sheridanc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "77e9c74f-cf1f-4414-b8f5-8a7fa12c7e44";
+				PROVISIONING_PROFILE_SPECIFIER = "Ed Sykes Provisioning Profile";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEFDFA0F20BC8EB70087F14E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "HomeKit Sensor Test/HomeKit Sensor Test.entitlements";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = RMHN57NYZQ;
+				INFOPLIST_FILE = "HomeKit Sensor Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.on.sheridanc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "77e9c74f-cf1f-4414-b8f5-8a7fa12c7e44";
+				PROVISIONING_PROFILE_SPECIFIER = "Ed Sykes Provisioning Profile";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEFDF9F620BC8EB50087F14E /* Build configuration list for PBXProject "HomeKit Sensor Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEFDFA0B20BC8EB70087F14E /* Debug */,
+				AEFDFA0C20BC8EB70087F14E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEFDFA0D20BC8EB70087F14E /* Build configuration list for PBXNativeTarget "HomeKit Sensor Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEFDFA0E20BC8EB70087F14E /* Debug */,
+				AEFDFA0F20BC8EB70087F14E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEFDF9F320BC8EB50087F14E /* Project object */;
+}
