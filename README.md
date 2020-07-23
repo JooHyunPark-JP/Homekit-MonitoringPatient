@@ -7,6 +7,9 @@ Basic features such as:
 -	Adding and removing an accessory from a room.
 -	Controlling basic functions of an accessory (e.g., turning on lights, motion detection duration, etc.)
 
+#The website that displays the data results and gets the data from this app:
+http://smarthome.fast.sheridanc.on.ca/HomeKitTest/welcomePage.html
+
 Development was aided with Apple’s HomeKit Catalog app: 
 -	https://github.com/ooper-shlab/HMCatalog-Swift3
 
